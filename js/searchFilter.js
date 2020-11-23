@@ -11,7 +11,7 @@
  *   
  * Utilization:
  *  Ensure that your search input is setup like this in your index.html:
- *   <input type="search" name="search" id="search" placeholder="Search">
+ *   <input type="search" name="search" id="search" placeholder="Search"> 
  *  Ensure that your image captions are added to your anchor elements via the data-caption attribute:
  *   <a href="photos/my-image.jpg" data-caption="A picture of me coding JavaScript on my computer">
  *  Add this into your app.js file:

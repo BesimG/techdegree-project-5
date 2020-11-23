@@ -23,8 +23,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));      */
+    grid-gap: 24px;
 }
 
 /* ---- Page Elements ---- */
@@ -42,4 +41,9 @@ input::placeholder {
     letter-spacing: 1.05px;
     padding-left: 10px;
     color: rgb(46, 46, 46);
+}
+
+.images {
+    padding-bottom: 1px;
+    
 }
