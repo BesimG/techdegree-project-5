@@ -14,16 +14,23 @@
 /* ---- Layout Containers ---- */
 
 .container {
-    max-width: 800px;
+    max-width: 1050px;
     margin: 0 auto;
     text-align: center;
 }
 
 .img_gallery {
-    height: 100vh;
+    margin: 0 auto;
+    height: 88vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 24px;
+    /*--- This code snippet is from Guil's CSS Lecture ---*/
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    /* --------------- */
+    grid-gap: 15px 5px;
+}
+
+.images img {
+    width: 91%;
 }
 
 /* ---- Page Elements ---- */
@@ -44,6 +51,6 @@ input::placeholder {
 }
 
 .images {
-    padding-bottom: 1px;
+    /* padding-bottom: 1px; */
     
 }
