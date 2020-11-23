@@ -1,2 +1,2 @@
 const search = new Filter('search', 'data-caption');
-baguetteBox.run('.gallery');
+baguetteBox.run('.img_gallery');
